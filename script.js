@@ -100,11 +100,14 @@ function init() {
 }
 
 function renderNavigation() {
-    planData.forEach(day => {
-        // Adjust the order starting from Monday (1) to Sunday (0) visually
+    const displayOrder = [1, 2, 3, 4, 5, 6, 0]; // Monday to Sunday
+    displayOrder.forEach(id => {
+        const day = planData.find(d => d.id === id);
+        if (!day) return;
         const btn = document.createElement('button');
         btn.className = `day-btn ${day.id === currentDay ? 'active' : ''}`;
         btn.textContent = day.dayName;
+        btn.dataset.id = day.id;
         btn.onclick = () => selectDay(day.id);
         daySelector.appendChild(btn);
     });
@@ -114,8 +117,8 @@ function selectDay(id) {
     currentDay = id;
     
     // Update active class
-    document.querySelectorAll('.day-btn').forEach((btn, index) => {
-        if (index === id) btn.classList.add('active');
+    document.querySelectorAll('.day-btn').forEach((btn) => {
+        if (parseInt(btn.dataset.id) === id) btn.classList.add('active');
         else btn.classList.remove('active');
     });
 
