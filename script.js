@@ -53,11 +53,11 @@ const planData = [
         focus: "Metabolic Conditioning (MetCon)",
         title: "Sức Mạnh & Trao Đổi Chất",
         instructions: [
-            "Chuỗi bài tập liên hoàn giữ nhịp tim ở mức cao.",
-            "Tập trung vào tốc độ và sức bền.",
+            "🔥 BẠN CHỈ CẦN CHỌN 1 TRONG 3 BÀI TẬP BÊN DƯỚI ĐỂ TẬP (Tùy theo thể lực hôm nay).",
+            "Chuỗi bài tập liên hoàn giữ nhịp tim ở mức cao, tập trung vào tốc độ và sức bền.",
             "💡 Tip: Nếu cơ chân đang rất đau mỏi từ Thứ 4, hãy thay thế các bài nhảy (Jumping) bằng Shadow Boxing (đấm gió) để giảm tải cho khớp gối."
         ],
-        images: ["assets/workouts/cardio-trim.jpg", "assets/workouts/metcon-prime.jpg"]
+        images: ["assets/workouts/cardio-trim.jpg", "assets/workouts/metcon-prime.jpg", "assets/workouts/spartan-standard.jpg"]
     },
     {
         id: 5,
