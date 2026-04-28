@@ -19,9 +19,9 @@ const planData = [
             "Tập trung phát triển cơ xô (Lats) và tay trước bằng Xà đơn (Pull-up bar).",
             "Dùng dây kháng lực để trợ lực kéo xà nếu chưa quen, hoặc tập thêm bài Band Rows (Chèo thuyền bằng dây).",
             "💡 Tip: Nên tập thêm 3-4 hiệp Band Lateral Raise (Nâng vai ngang bằng dây) để vai rộng, tạo dáng V-taper.",
-            "Hoàn thành phần Core với bài Core Exe."
+            "Hoàn thành phần Core với bài Total Abs."
         ],
-        images: ["assets/workouts/pullup-level1.jpg", "assets/workouts/core-exe.jpg"]
+        images: ["assets/workouts/pullup-level1.jpg", "assets/workouts/total-abs.jpg"]
     },
     {
         id: 2,
@@ -43,9 +43,9 @@ const planData = [
             "Xây dựng cơ chân, mông săn chắc.",
             "Đạp lên dây kháng lực để tạo lực cản cho bài Squat và Deadlift.",
             "💡 Tip: Tập vừa sức (RPE 7-8), không nên tập đến mức kiệt sức để cơ chân kịp phục hồi cho thứ 5 & 6.",
-            "Kết thúc buổi tập với bài Core Exe."
+            "Kết thúc buổi tập với bài Total Abs."
         ],
-        images: ["assets/workouts/high-volume-legs.jpg", "assets/workouts/core-exe.jpg"]
+        images: ["assets/workouts/high-volume-legs.jpg", "assets/workouts/total-abs.jpg"]
     },
     {
         id: 4,
